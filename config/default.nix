@@ -1,5 +1,3 @@
-_:
-
 {
   # Import all your configuration modules here
   imports = [ 
@@ -8,5 +6,5 @@ _:
     ./bufferline.nix
   ];
   
-  globals.mapleader = " ";
+  globals.mapleader = "<space>";
 }
